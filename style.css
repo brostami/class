@@ -1,17 +1,23 @@
-<style>
-
 	body {
-		background-color: #efeee7;
-		font-family: “Georgia”,Times New Roman,Times,serif;
+		background: #efeee7;
+		font-family: Georgia,"Times New Roman",Times,serif;
 		color: #333333
 		margin: 0;
 		padding: 0;
+		line-height: 150%;
+	}
+
+	header {
+		background: #333333;
 	}
 
 	h1 {
 		color: #eee;
+		margin: 0;
 		font-size: 28px;
-		padding: 5px;
+		padding: 20px 0;
+		margin-bottom: 20px;
+		text-align: center;
 	}
 
 	h2 {
@@ -37,10 +43,10 @@
 	#bio-image {
 		float: left;
 		width: 200px;
+		height: 200px;
+		margin-right: 20px;
 	}
 
-	a:link {
+	a {
 		color: #d21034;
 	}
-
-</style>
